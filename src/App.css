@@ -1,0 +1,100 @@
+.footer {
+  background-color: blue;
+  height: 200px;
+  padding: 0px;
+  display: flex;
+  text-align: center;
+}
+
+ .nav {
+  background-color: yellow;
+  width: 400px;
+}
+
+.aside {
+  background-color: yellow;
+  padding: 0px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 0 px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  width: 100%;
+  padding: 0px;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+ .header{
+  background-color: red;
+  height: 100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+
+}
+
+
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__line {
+  width: 30px;
+  height: 2px;
+  background: white;
+
+}
+.toolbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #521751;
+  height: 56px;
+}
+.spacer {
+  flex: 1;
+}
+
+.toolbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toolbar_navigation-items li {
+  padding: 0 0.5rem;
+}
+
+.toolbar_navigation-items a {
+  color: white;
+  text-decoration: none;
+}
